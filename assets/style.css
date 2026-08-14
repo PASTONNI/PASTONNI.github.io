@@ -44,6 +44,18 @@ nav{
 .nav-links a:hover{color:var(--text)}
 .nav-links a.active{color:var(--accent-bright)}
 
+/* headshot */
+.headshot{
+  width:88px;height:88px;border-radius:50%;object-fit:cover;
+  border:2px solid var(--accent-dim);margin-bottom:24px;
+}
+
+/* dashboard project image */
+.project-image{
+  width:100%;border-radius:8px;border:1px solid var(--border);
+  margin-bottom:16px;display:block;
+}
+
 /* hero */
 .hero{padding:96px 0 64px;position:relative;overflow:hidden}
 .hero::before{
