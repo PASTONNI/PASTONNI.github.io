@@ -13,7 +13,7 @@
   <nav>
     <a href="#top" class="logo">Anthony Nwachukwu</a>
     <div class="nav-links">
-      <a href="#projects">Projects</a>
+      <a href="#projects">Data-Engineering Projects</a>
       <a href="#data-analysis">Data Analysis</a>
       <a href="#stack">Stack</a>
       <a href="#about">About</a>
@@ -27,7 +27,7 @@
     <img src="assets/images/profile.jpg" alt="Anthony Nwachukwu" class="headshot">
     <p class="eyebrow">data engineer · federated engineers</p>
     <h1>I turn raw data into decisions — and cut the cost of getting there.</h1>
-    <p class="hero-sub">Cloud data pipelines, cost-optimised AWS architectures, and analytics infrastructure that scales.</p>
+    <p class="hero-sub">By building Cloud data pipelines, cost-optimised AWS architectures, and analytics infrastructure that scales.</p>
     <div class="btn-row">
       <a href="#projects" class="btn btn-primary">View projects</a>
       <a href="#contact" class="btn btn-secondary">Get in touch</a>
@@ -47,15 +47,15 @@
 
   <section id="projects">
     <p class="section-label">selected work</p>
-    <h2>Projects</h2>
+    <h2>Data-Engineering Projects</h2>
     <div class="projects-grid">
 
       <div class="project-card">
         <div class="project-head">
-          <div class="project-title">Athena S3 partitioning cost demo</div>
+          <div class="project-title">Athena - S3 partitioning cost demo</div>
           <div class="project-metric">93.4% less data scanned</div>
         </div>
-        <p class="project-desc">Wrote the same dataset to S3 partitioned and non-partitioned, registered both in Glue, and measured the real Athena cost difference. Partitioning cut scanned data from 33.1 MB to 2.18 MB on the same query — a pattern that projects to roughly $4,660/month saved at production scale.</p>
+        <p class="project-desc">Wrote the same dataset to S3 partitioned and non-partitioned, registered both in Glue, and measured the real Athena cost difference. Partitioning cut scanned data from 33.1 MB to 2.18 MB on the same query, a pattern that projects to roughly $4,660/month saved at production scale.</p>
         <div class="tag-row">
           <span class="tag">Python</span>
           <span class="tag">AWS Glue</span>
@@ -71,10 +71,11 @@
           <div class="project-title">Weather data pipeline</div>
           <div class="project-metric">containerised · end-to-end</div>
         </div>
-        <p class="project-desc">An end-to-end weather data pipeline — ingestion, transformation, and storage, containerised with Docker for reproducible runs.</p>
+        <p class="project-desc">An end-to-end weather data pipeline — ingestion, transformation, and storage, containerised with Docker for reproducible runs and orchestrated with apache airflow.</p>
         <div class="tag-row">
           <span class="tag">Python</span>
           <span class="tag">Docker</span>
+          <span class="tag">Apache Airflow</span>
           <span class="tag">ETL</span>
         </div>
         <a href="https://github.com/PASTONNI/Weather_Project" class="project-link">View repo →</a>
@@ -143,13 +144,13 @@
     <h2>About</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>I'm a data engineer based in Germany, with a background in BI and data analytics. I hold an MSc in Data Science and Artificial Intelligence from the University of Hull.</p>
-        <p>I started out analysing data — now I build the pipelines that get it there. I consult through Federated Engineers, working on cloud data lake and pipeline projects on AWS.</p>
+        <p>I'm a data engineer at Federated Engineers, with a background in BI and data analytics. I hold an MSc in Data Science and Artificial Intelligence from the University of Hull.</p>
+        <p>I started out analysing data, now I build the pipelines that get it there. I build Cloud Native infrastructures on AWS to solve various clients business needs.</p>
         <p>Outside of client work, I write about cloud and data engineering on Medium and LinkedIn, covering AWS fundamentals, IAM, S3, and pipeline design.</p>
       </div>
       <div>
         <div class="timeline-item">
-          <div class="timeline-role">Founder / Data Engineer</div>
+          <div class="timeline-role">Data Engineer</div>
           <div class="timeline-org">Federated Engineers</div>
         </div>
         <div class="timeline-item">
@@ -172,7 +173,7 @@
     <p class="section-label">get in touch</p>
     <h2>Contact</h2>
     <div class="contact-box">
-      <p style="color:var(--text-secondary);font-size:15px">Open to data engineering roles and consulting work — reach out below.</p>
+      <p style="color:var(--text-secondary);font-size:15px">Open to data/Analytics engineering roles and consulting — reach out below.</p>
       <div class="contact-links">
         <a href="mailto:anthonynwach@gmail.com" class="btn btn-primary">anthonynwach@gmail.com</a>
         <a href="https://linkedin.com/in/anthony-nwachukwu1" class="btn btn-secondary">LinkedIn</a>
@@ -182,7 +183,7 @@
   </section>
 </main>
 
-<footer>© 2026 Anthony Nwachukwu — built and deployed as a static site</footer>
+<footer>© 2026 Anthony Nwachukwu </footer>
 
 <script src="assets/script.js"></script>
 </body>
